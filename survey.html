@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey</title>
+</head>
+<body>
+    <h1>Survey Form</h1>
+    <hr noshade>
+    <form action="mailto:sidde972@gmail.com" method="post" enctype="text/plain">
+        <table width=70% align=""center" cellspacing="10" cellpadding="5">
+        <tr>
+            <td><label>Name:</label></td>
+            <td><input type="text" name="name" placeholder="Enter your name"></td>
+        </tr>
+        <tr>   
+            <td><label>Email ID:</label></td>
+            <td><input type="text" name="email" placeholder="Enter your email"></td>
+        </tr>
+        <tr>   
+            <td><label>Date of Birth:</label></td>
+            <td><input type="date" name="DOB"></td>
+        </tr>
+        <tr>   
+            <td><label>Phone Number:</label></td>
+            <td><input type="number" name="Phno" placeholder="Enter your Contact number"></td>
+        </tr>
+        <tr>   
+            <td><label>Sex:</label></td>
+            <td>
+                <input type="radio" name="Male" id="Male"><label for="Male">Male</label>
+                <input type="radio" name="Female" id="Female"><label for="Female">Female</label>
+                <input type="radio" name="Others" id="Others"><label for="Others">Others</label>
+            </td>
+        </tr>
+        <tr>   
+            <td><label>Favourite Colour:</label></td>
+            <td><input type="color" name="color"></td>
+        </tr>
+        <tr>   
+            <td><label>Have You Started Coding:</label><input type="checkbox" name="code"></td>
+            <td><label>Have You Started Web Development:</label><input type="checkbox" name="dev"></td>
+        </tr>
+        <tr>
+            <td>Resume:</td>
+            <td><input type="file"></td>
+        </tr>
+        <tr>
+            <td >Suggestions:</td>
+            <td><textarea name="Suggestions" rows="9" cols="100"></textarea></td>
+        </tr>
+        </table>
+        <center><input type="submit"><input type="reset"></td></center>
+    </form>
+</body>
+</html>
